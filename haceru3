@@ -1,0 +1,7 @@
+echo "# utc" >> README.md
+git init
+git add README.md
+git commit -m "Infraestructura virtualizada"
+git branch -M main
+git remote add origin https://github.com/berna010/utc.git
+git push -u origin main
